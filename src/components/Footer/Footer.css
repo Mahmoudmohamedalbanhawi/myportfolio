@@ -1,0 +1,30 @@
+footer.d-flex{
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+footer.d-flex ul{
+    gap: 1rem;
+}
+
+footer.d-flex ul a{
+    color: var(--subtitle);
+    font-size: 0.9rem;
+}
+
+footer.d-flex ul a:hover{
+    color: var(--blue);
+    font-size: 1.2rem;
+
+}
+
+footer.d-flex p{
+    color: rgb(113, 113, 122);
+}
+
+@media screen and (max-width:800px) {
+    footer.d-flex {
+        flex-direction: column;
+        gap: 2rem;
+        margin-bottom: 1.9rem;
+    }
+}
